@@ -23,7 +23,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/smalltown/argocd-galaxy
+        repoURL: https://github.com/4406arthur/argocd-galaxy
         targetRevision: main
         path: infrastructure/solar-system/basic/prometheus
       destination:

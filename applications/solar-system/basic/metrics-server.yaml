@@ -16,9 +16,9 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/smalltown/argocd-galaxy
-        targetRevision: main
-        path: infrastructure/solar-system/basic/metrcis-server
+        repoURL: https://github.com/kubernetes-sigs/metrics-server
+        targetRevision: master
+        path: manifests/base
       destination:
         server: '{{server}}'
         namespace: kube-system
