@@ -2,5 +2,5 @@ kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 name: sun
 networking:
-  apiServerAddress: #{IP_ADDRESS}
+  apiServerAddress: 192.168.0.104
   apiServerPort: 61000
